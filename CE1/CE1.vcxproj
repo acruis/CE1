@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{36529159-CB77-4B43-AA1A-A3A754140C25}</ProjectGuid>
     <RootNamespace>CE1</RootNamespace>
+    <ProjectName>TextBuddy</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

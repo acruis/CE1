@@ -1,0 +1,18 @@
+No filename specified! Usage: TextBuddy.exe <FILENAME>
+Using default filename: mytextfile.txt
+command: added to mytextfile.txt: "little brown fox"
+command: 1. little brown fox
+command: added to mytextfile.txt: "jumped over the moon"
+command: 1. little brown fox
+2. jumped over the moon
+command: added to mytextfile.txt: "and landed in a pool of mud"
+command: 1. little brown fox
+2. jumped over the moon
+3. and landed in a pool of mud
+command: Command error.
+command: deleted from mytextfile.txt: "and landed in a pool of mud"
+command: deleted from mytextfile.txt: "little brown fox"
+command: 1. jumped over the moon
+command: all content deleted from mytextfile.txt
+command: mytextfile.txt is empty.
+command: 

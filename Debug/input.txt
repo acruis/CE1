@@ -1,3 +1,13 @@
-YOU MURDERED HER
-YOU RAPED HER
-THEN YOU KILLED HER CHILDREN
+add little brown fox
+display
+add jumped over the moon
+display
+add and landed in a pool of mud
+display
+delete 6
+delete 3
+delete 1
+display
+clear
+display
+exit

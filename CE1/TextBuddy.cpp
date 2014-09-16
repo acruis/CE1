@@ -1,5 +1,8 @@
 /**
-* Program: TextBuddy.exe (CE1)
+* Program: TextBuddy.exe
+*
+* Requirements to run:
+* - Microsoft Visual Studio runtime
 *
 * Command parsing assumptions:
 * - No other commands other than Add, Clear, Display, Delete, Exit
@@ -10,14 +13,20 @@
 * - Exit has no arguments
 *
 * Command line assumptions:
+* - Program is run using TextBuddy.exe targetFileName.exe
+* - If only TextBuddy.exe is run, mytextfile.txt is used
+*
 * @author Nguyen Quoc Dat (A0116703N)
 */
 
+#include "stdafx.h"
+#include <CppUnitTest.h>
 #include <iostream>
 #include <fstream>
 #include <string>
 #include <vector>
 
+using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 using namespace std;
 
 const enum COMMAND_TYPE {
